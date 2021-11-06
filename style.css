@@ -1,0 +1,300 @@
+/*barra de navegación*/
+.nav {
+  font-family: "Lovelo", sans-serif;
+  text-align: center;
+  font-size: 20px;
+}
+.nav a {
+  text-decoration: none;
+  text-align: center;
+  color: inherit;
+  font-size: 20px;
+}
+.nav ul {
+  list-style: none;
+}
+.menu li {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 10px;
+}
+.menu li a {
+  display: block;
+  padding: 5px 10px;
+  color: #000000;
+  text-decoration: none;
+  text-align: center;
+}
+.menu li:hover {
+  background-color: #ddd9df;
+  color: #000000;
+}
+/*submenu*/
+.submenu {
+  position: absolute;
+  background-color: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 1.5s;
+  padding: 0px 5px;
+}
+.submenu li a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+}
+.menu li:hover .submenu {
+  color: #000000;
+  visibility: visible;
+  opacity: 1;
+}
+
+/*cuerpo*/
+main {
+  font-family: "Gilroy", sans-serif;
+  margin: 1% 1%;
+  text-align: justify;
+}
+
+/*eventos+playlist*/
+.diary-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+.mitad-flex {
+  border: 1px solid #ffffff;
+  width: 49%;
+  padding: 1px;
+}
+.playlist {
+  padding-right: 120px;
+}
+
+/*nuestra historia*/
+.staff-flex {
+  border: 1px;
+  width: 49%;
+  padding: 1px;
+}
+.foto {
+  text-align: center;
+}
+.historia {
+  padding-left: 30px;
+}
+
+/*calendario*/
+h1 {
+  font-family: "Lovelo", sans-serif;
+  color: #2e2e2e;
+  font-size: 20px;
+}
+h2 {
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.toptabla {
+  text-transform: uppercase;
+  font-size: 17px;
+  background-color: #ddd9df;
+}
+
+/*formulario contacto*/
+#limpiar {
+  background-color: #ddd9df;
+}
+#enviar {
+  background-color: #ddd9df;
+  font-weight: bold;
+}
+
+.nosotros-subsecc {
+  color: #7c6a86;
+}
+
+.contenedor-flex {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-flex {
+  border: 1px solid #ffffff;
+  width: 49%;
+  margin: 1% 1%;
+  padding-left: 4px;
+  background-image: linear-gradient(to right, #ddd9df , #ffffff) /*solo para entrega, luego borrar gradiente*/
+}
+
+/*footer*/
+.footer {
+  background-color: #ddd9df;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  flex: 1;
+}
+.redes {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 18px;
+}
+
+/*miembros*/
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas: ". rm ." "jin suga jhope" "jimin v jk";
+  grid-column-gap: 40px;
+  grid-row-gap: 15px;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  padding: 8px;
+}
+
+.rm {
+  grid-area: rm;
+  background: #ddd9df;
+  text-align: justify;
+}
+.jin {
+  grid-area: jin;
+  background: #ddd9df;
+  text-align: justify;
+}
+.suga {
+  grid-area: suga;
+  background: #ddd9df;
+  text-align: justify;
+}
+.jhope {
+  grid-area: jhope;
+  background: #ddd9df;
+  text-align: justify;
+}
+.jimin {
+  grid-area: jimin;
+  background: #ddd9df;
+  text-align: justify;
+}
+.v {
+  grid-area: v;
+  background: #ddd9df;
+  text-align: justify;
+}
+.jk {
+  grid-area: jk;
+  background: #ddd9df;
+  text-align: justify;
+}
+
+/*discografía*/
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: repeat(6, 250px);
+  grid-template-areas: "R Q P" "O N M" "L K J" "I H G" "F E D" "C B A";
+  grid-column-gap: 40px;
+  grid-row-gap: 15px;
+  justify-content: center;
+  align-content: center;
+  padding: 8px;
+}
+
+.img-container {
+  width: 250px;
+  height: 250px;
+  position: relative; 
+}
+.img-container p {
+  margin: auto;  
+  color: #ddd9df;
+  text-align: center;
+  line-height: 250px;
+  background: #000000;
+  transition: opacity .5s linear;
+  cursor: pointer;  
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  font-family: "Lovelo", sans-serif;
+  font-size: 20px;
+}
+.img-container:hover p {
+  opacity: .75;  
+}
+
+.A {
+  grid-area: A;
+}
+.B {
+  grid-area: B;
+}
+.C {
+  grid-area: C;
+}
+.D {
+  grid-area: D;
+}
+.E {
+  grid-area: E;
+}
+.F {
+  grid-area: F;
+}
+.G {
+  grid-area: G;
+}
+.H {
+  grid-area: H;
+}
+.I {
+  grid-area: I;
+}
+.J {
+  grid-area: J;
+}
+.K {
+  grid-area: K;
+}
+.L {
+  grid-area: L;
+}
+.M {
+  grid-area: M;
+}
+.N {
+  grid-area: N;
+}
+.O {
+  grid-area: O;
+}
+.P {
+  grid-area: P;
+}
+.Q {
+  grid-area: Q;
+}
+.R {
+  grid-area: R;
+}
+
+/*transform, solo para entrega, luego borrar*/
+.tetej {
+  transform: scale(0.5) translate(-20%, -10%) rotate(0.5turn);
+}
