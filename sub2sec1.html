@@ -3,30 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Rise on Bangtan</title>
     <link rel="stylesheet" href="style.css" />
     <link
       href="http://fonts.cdnfonts.com/css/lovelo?styles=25962"
       rel="stylesheet"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="//db.onlinewebfonts.com/c/e7eace3e52faed10186de77ca7d82ad9?family=Camber"
-      rel="stylesheet"
-    />
-    <link
-      href="//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/e7eace3e52faed10186de77ca7d82ad9?family=Camber" rel="stylesheet" />
+    <link href="//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <img src="images/haderrob.png" alt="logo-horizontal-largo" />
-      <nav class="nav">
+      <img src="images/haderrob.png" class="mx-auto d-block" alt="logo-horizontal-largo" />
+      <nav class="nav justify-content-center">
         <ul class="menu">
           <li><a href="index.html">Inicio</a></li>
           <li>
@@ -53,61 +46,86 @@
       </nav>
     </header>
     <main>
-      <h1>Miembros</h1>
+      <div class="titulo">Miembros</div>
       <!--este título puede ir en una imagen que se fusione con el fondo-->
       <!--Info y fotos de los siete miembros-->
       <!--contenedor-->
       <div class="grid">
         <!--cada uno de los ítems del grid-->
         <div class="rm">
-          <img src="" alt="namjoon" width="375px"/>
-          <h2>RM</h2>
+          <img src="" alt="namjoon" width="375px" />
+          <div class="subtitulo">RM</div>
           hola soy namjoon
         </div>
         <div class="jin">
-          <img src="" alt="seokjin" width="375px"/>
-          <h2>JIN</h2>
+          <img src="" alt="seokjin" width="375px" />
+          <div class="subtitulo">JIN</div>
           hola soy seokjin
         </div>
         <div class="suga">
-          <img src="" alt="yoongi" width="375px"/>
-          <h2>SUGA</h2>
+          <img src="" alt="yoongi" width="375px" />
+          <div class="subtitulo">SUGA</div>
           hola soy yoongi
         </div>
         <div class="jhope">
-          <img src="" alt="hoseok" width="375px"/>
-          <h2>J-HOPE</h2>
+          <img src="" alt="hoseok" width="375px" />
+          <div class="subtitulo">J-HOPE</div>
           hola soy hoseok
         </div>
         <div class="jimin">
-          <img src="" alt="jimin" width="375px"/>
-          <h2>JIMIN</h2>
+          <img src="" alt="jimin" width="375px" />
+          <div class="subtitulo">JIMIN</div>
           hola soy jimin
         </div>
         <div class="v">
-          <img src="" alt="taehyung" width="375px"/>
-          <h2>V</h2>
+          <img src="" alt="taehyung" width="375px" />
+          <div class="subtitulo">V</div>
           hola soy taehyung
         </div>
         <div class="jk">
-          <img src="" alt="jungkook" width="375px"/>
-          <h2>JUNGKOOK</h2>
+          <img src="" alt="jungkook" width="375px" />
+          <div class="subtitulo">JUNGKOOK</div>
           hola soy jungkook
         </div>
       </div>
     </main>
     <footer class="footer">
       <section class="footer-flex logo">
-      <img src="images/logorob.png" alt="logo-circular" />
+        <img src="images/logorob.png" alt="logo-circular" />
       </section>
       <section class="footer-flex redes">
-      <a href="https://www.instagram.com/riseonbangtan.argentina/"><img src="images/instagram.png" alt="Instagram" title="Instagram" /></a>
-      <a href="https://twitter.com/RiseOnBangtanAr"><img src="images/twitter.png" alt="Twitter" title="Twitter" /></a>
-      <a href="https://www.facebook.com/RiseOnBangtanArgentina"><img src="images/facebook.png" alt="Facebook" title="Facebook" /></a>
-      <a href="https://www.youtube.com/c/BANGTANTV"><img src="images/youtube.png" alt="YouTube" title="YouTube" /></a>
-      <a href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX?si=rKZ2T4lDT9un5qHE7ZPuZQ"><img src="images/spotify.png" alt="Spotify" title="Spotify" /></a>
-    </section>
-  </footer>
+        <a href="https://www.instagram.com/riseonbangtan.argentina/"
+          ><img src="images/instagram.png" alt="Instagram" title="Instagram"
+        /></a>
+        <a href="https://twitter.com/RiseOnBangtanAr"
+          ><img src="images/twitter.png" alt="Twitter" title="Twitter"
+        /></a>
+        <a href="https://www.facebook.com/RiseOnBangtanArgentina"
+          ><img src="images/facebook.png" alt="Facebook" title="Facebook"
+        /></a>
+        <a href="https://www.youtube.com/c/BANGTANTV"
+          ><img src="images/youtube.png" alt="YouTube" title="YouTube"
+        /></a>
+        <a
+          href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX?si=rKZ2T4lDT9un5qHE7ZPuZQ"
+          ><img src="images/spotify.png" alt="Spotify" title="Spotify"
+        /></a>
+      </section>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
-
