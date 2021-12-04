@@ -216,51 +216,84 @@ p {
   grid-template-areas: ". rm ." "jin suga jhope" "jimin v jk";
   grid-column-gap: 40px;
   grid-row-gap: 15px;
-  justify-content: space-evenly;
-  align-content: space-evenly;
+  justify-content: center;
+  align-content: center;
   padding: 8px;
 }
 
 .rm {
   grid-area: rm;
-  background: #ddd9df;
+  background: #ffffff;
   text-align: justify;
 }
 
 .jin {
   grid-area: jin;
-  background: #ddd9df;
+  background: #ffffff;
   text-align: justify;
 }
 
 .suga {
   grid-area: suga;
-  background: #ddd9df;
+  background: #ffffff;
   text-align: justify;
 }
 
 .jhope {
   grid-area: jhope;
-  background: #ddd9df;
+  background: #ffffff;
   text-align: justify;
 }
 
 .jimin {
   grid-area: jimin;
-  background: #ddd9df;
+  background: #ffffff;
   text-align: justify;
 }
 
 .v {
   grid-area: v;
-  background: #ddd9df;
+  background: #ffffff;
   text-align: justify;
 }
 
 .jk {
   grid-area: jk;
-  background: #ddd9df;
+  background: #ffffff;
   text-align: justify;
+}
+
+.miembros-container {
+  height: auto;
+  width: 375;
+  position: relative;
+}
+.miembros-container p {
+  margin: auto;
+  padding-top: 50px;
+  padding-left: 14px;
+  padding-right: 20px;
+  font-family: "Gilroy", sans-serif;
+  font-size: 15px;
+  text-align: justify;
+  text-decoration-color: #5f4f68;
+  background: #ffffff;
+  transition: opacity 0.5s linear;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.miembros-container:hover p {
+  opacity: 0.75;
+}
+
+span {
+  font-weight: bold;
 }
 
 /*discografía*/
@@ -285,7 +318,7 @@ p {
   margin: auto;
   color: #ddd9df;
   text-align: center;
-  line-height: 250px;
+  padding-top: 50px;
   background: #000000;
   transition: opacity 0.5s linear;
   cursor: pointer;
