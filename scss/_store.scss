@@ -1,0 +1,20 @@
+/*store*/
+h5 {
+  font-family: "Lovelo", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+p {
+  font-family: "Gilroy", sans-serif;
+  font-size: 15px;
+}
+
+.btn {
+  font-family: "Lovelo", sans-serif;
+  font-size: 17px;
+}
+
+.card-img-top {
+  @include sizes(auto, 400px);
+}

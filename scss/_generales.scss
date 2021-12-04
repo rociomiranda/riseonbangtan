@@ -22,3 +22,11 @@ main {
     text-align: center;
   }
   
+  .nosotros-subsecc {
+    color: #7c6a86;
+  }
+
+  @mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+  }

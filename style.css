@@ -25,6 +25,10 @@ main {
   text-align: center;
 }
 
+.nosotros-subsecc {
+  color: #7c6a86;
+}
+
 /*barra de navegación*/
 .nav {
   font-family: "Lovelo", sans-serif;
@@ -143,18 +147,38 @@ main {
   text-align: center;
 }
 
+/*store*/
+h5 {
+  font-family: "Lovelo", sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+p {
+  font-family: "Gilroy", sans-serif;
+  font-size: 15px;
+}
+
+.btn {
+  font-family: "Lovelo", sans-serif;
+  font-size: 17px;
+}
+
+.card-img-top {
+  height: 400px;
+  width: auto;
+}
+
 /*formulario contacto*/
 #limpiar {
   background-color: #ddd9df;
+  border-radius: 8px;
 }
 
 #enviar {
   background-color: #ddd9df;
   font-weight: bold;
-}
-
-.nosotros-subsecc {
-  color: #7c6a86;
+  border-radius: 8px;
 }
 
 .contenedor-flex {
@@ -169,6 +193,14 @@ main {
   width: 49%;
   margin: 1% 1%;
   padding-left: 4px;
+}
+
+.form1-flex {
+  border: 3px solid #ddd9df;
+  width: 100%;
+  padding: 2%;
+  border-radius: 6px;
+  margin: 0 auto;
 }
 
 /*transform, solo para entrega, luego borrar*/
@@ -245,8 +277,8 @@ main {
 }
 
 .img-container {
-  width: 250px;
   height: 250px;
+  width: 250px;
   position: relative;
 }
 .img-container p {

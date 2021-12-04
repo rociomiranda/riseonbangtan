@@ -11,38 +11,36 @@
     padding: 8px;
   }
   
-  .rm {
-    grid-area: rm;
+  @mixin miembros {
     background: #ddd9df;
     text-align: justify;
+  }
+
+  .rm {
+    grid-area: rm;
+    @include miembros;
   }
   .jin {
     grid-area: jin;
-    background: #ddd9df;
-    text-align: justify;
+    @include miembros;
   }
   .suga {
     grid-area: suga;
-    background: #ddd9df;
-    text-align: justify;
+    @include miembros;
   }
   .jhope {
     grid-area: jhope;
-    background: #ddd9df;
-    text-align: justify;
+    @include miembros;
   }
   .jimin {
     grid-area: jimin;
-    background: #ddd9df;
-    text-align: justify;
+    @include miembros;
   }
   .v {
     grid-area: v;
-    background: #ddd9df;
-    text-align: justify;
+    @include miembros;
   }
   .jk {
     grid-area: jk;
-    background: #ddd9df;
-    text-align: justify;
+    @include miembros;
   }

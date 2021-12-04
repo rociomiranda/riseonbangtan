@@ -1,14 +1,12 @@
 /*formulario contacto*/
-#limpiar {
+  #limpiar {
     background-color: #ddd9df;
+    border-radius: 8px;
   }
   #enviar {
     background-color: #ddd9df;
     font-weight: bold;
-  }
-  
-  .nosotros-subsecc {
-    color: #7c6a86;
+    border-radius: 8px;
   }
   
   .contenedor-flex {
@@ -22,5 +20,13 @@
     width: 49%;
     margin: 1% 1%;
     padding-left: 4px;
-  }
-  
+}
+
+  .form1-flex {
+    border: 3px solid #ddd9df;
+    width: 100%;
+    padding: 2%;
+    border-radius: 6px;
+    margin: 0 auto;
+}
+
