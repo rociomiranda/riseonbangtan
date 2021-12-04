@@ -1,0 +1,94 @@
+/*discografía*/
+.grid2 {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(6, 250px);
+    grid-template-areas: "R Q P" "O N M" "L K J" "I H G" "F E D" "C B A";
+    grid-column-gap: 40px;
+    grid-row-gap: 15px;
+    justify-content: center;
+    align-content: center;
+    padding: 8px;
+  }
+  
+  .img-container {
+    width: 250px;
+    height: 250px;
+    position: relative; 
+  
+     p {
+    margin: auto;  
+    color: #ddd9df;
+    text-align: center;
+    line-height: 250px;
+    background: #000000;
+    transition: opacity .5s linear;
+    cursor: pointer;  
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    font-family: "Lovelo", sans-serif;
+    font-size: 20px;
+  }
+}
+  .img-container:hover p {
+    opacity: .75;  
+  }
+  
+  .A {
+    grid-area: A;
+  }
+  .B {
+    grid-area: B;
+  }
+  .C {
+    grid-area: C;
+  }
+  .D {
+    grid-area: D;
+  }
+  .E {
+    grid-area: E;
+  }
+  .F {
+    grid-area: F;
+  }
+  .G {
+    grid-area: G;
+  }
+  .H {
+    grid-area: H;
+  }
+  .I {
+    grid-area: I;
+  }
+  .J {
+    grid-area: J;
+  }
+  .K {
+    grid-area: K;
+  }
+  .L {
+    grid-area: L;
+  }
+  .M {
+    grid-area: M;
+  }
+  .N {
+    grid-area: N;
+  }
+  .O {
+    grid-area: O;
+  }
+  .P {
+    grid-area: P;
+  }
+  .Q {
+    grid-area: Q;
+  }
+  .R {
+    grid-area: R;
+  }

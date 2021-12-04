@@ -1,0 +1,21 @@
+{
+  "name": "riseonbangtan",
+  "version": "1.0.0",
+  "description": "Pagina Fanbase",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "sass --watch scss/style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rociomiranda/riseonbangtan.git"
+  },
+  "keywords": [],
+  "author": "Rocio Miranda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rociomiranda/riseonbangtan/issues"
+  },
+  "homepage": "https://github.com/rociomiranda/riseonbangtan#readme"
+}

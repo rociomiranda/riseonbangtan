@@ -1,0 +1,26 @@
+/*formulario contacto*/
+#limpiar {
+    background-color: #ddd9df;
+  }
+  #enviar {
+    background-color: #ddd9df;
+    font-weight: bold;
+  }
+  
+  .nosotros-subsecc {
+    color: #7c6a86;
+  }
+  
+  .contenedor-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .form-flex {
+    border: 1px solid #ffffff;
+    width: 49%;
+    margin: 1% 1%;
+    padding-left: 4px;
+  }
+  

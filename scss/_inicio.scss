@@ -1,0 +1,43 @@
+/*noticias*/
+.subtcaru {
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: "Lovelo", sans-serif;
+  }
+  .texcaru {
+    font-family: "Gilroy", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+  }
+  
+/*eventos+playlist*/
+  .diary-flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+  }
+  .mitad-flex {
+    border: 1px solid #ffffff;
+    width: 49%;
+    padding: 1px;
+  }
+  .playlist {
+    padding-right: 120px;
+  }
+  
+/*nuestra historia*/
+  .staff-flex {
+    border: 1px;
+    width: 49%;
+    padding: 1px;
+  }
+  .foto {
+    text-align: center;
+  }
+  .historia {
+    padding-left: 30px;
+  }
