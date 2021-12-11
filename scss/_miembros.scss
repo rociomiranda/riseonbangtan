@@ -1,66 +1,66 @@
 /*miembros*/
 .grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    grid-template-areas: ". rm ." "jin suga jhope" "jimin v jk";
-    grid-column-gap: 40px;
-    grid-row-gap: 15px;
-    justify-content: center;
-    align-content: center;
-    padding: 8px;
-  }
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-areas: ". rm ." "jin suga jhope" "jimin v jk";
+  grid-column-gap: 40px;
+  grid-row-gap: 15px;
+  justify-content: center;
+  align-content: center;
+  padding: 8px;
+}
 
-  @mixin miembros {
-    background: #ffffff;
-    text-align: justify;
-  }
+@mixin miembros {
+  background: #ffffff;
+  text-align: justify;
+}
 
-  .rm {
-    grid-area: rm;
-    @include miembros;
-  }
-  .jin {
-    grid-area: jin;
-    @include miembros;
-  }
-  .suga {
-    grid-area: suga;
-    @include miembros;
-  }
-  .jhope {
-    grid-area: jhope;
-    @include miembros;
-  }
-  .jimin {
-    grid-area: jimin;
-    @include miembros;
-  }
-  .v {
-    grid-area: v;
-    @include miembros;
-  }
-  .jk {
-    grid-area: jk;
-    @include miembros;
-  }
+.rm {
+  grid-area: rm;
+  @include miembros;
+}
+.jin {
+  grid-area: jin;
+  @include miembros;
+}
+.suga {
+  grid-area: suga;
+  @include miembros;
+}
+.jhope {
+  grid-area: jhope;
+  @include miembros;
+}
+.jimin {
+  grid-area: jimin;
+  @include miembros;
+}
+.v {
+  grid-area: v;
+  @include miembros;
+}
+.jk {
+  grid-area: jk;
+  @include miembros;
+}
 
-  .miembros-container {
-    @include sizes(375, auto);
-    position: relative; 
+.miembros-container {
+  @include sizes(375, auto);
+  position: relative;
 
-   p {
-    margin: auto;  
+  p {
+    margin: auto;
     padding-top: 50px;
     padding-left: 14px;
-    padding-right: 20px;
+    padding-right: 22px;
     font-family: "Gilroy", sans-serif;
     font-size: 15px;
     text-align: justify;
     text-decoration-color: #5f4f68;
     background: #ffffff;
-    transition: opacity .5s linear;
-    cursor: pointer;  
+    transition: opacity 0.5s linear;
+    cursor: pointer;
     position: absolute;
     top: 0;
     right: 0;
@@ -69,11 +69,10 @@
     opacity: 0;
   }
 }
-  .miembros-container:hover p {
-    opacity: .75;  
-  }
+.miembros-container:hover p {
+  opacity: 0.75;
+}
 
-  span {
-    font-weight: bold;
-  }
-
+span {
+  font-weight: bold;
+}
