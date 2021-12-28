@@ -1,14 +1,4 @@
 /*formulario contacto*/
-  #limpiar {
-    background-color: #ddd9df;
-    border-radius: 8px;
-  }
-  #enviar {
-    background-color: #ddd9df;
-    font-weight: bold;
-    border-radius: 8px;
-  }
-  
   .contenedor-flex {
     display: flex;
     flex-wrap: nowrap;
@@ -27,6 +17,9 @@
     width: 100%;
     padding: 2%;
     border-radius: 6px;
-    margin: 0 auto;
+    margin: 10 auto;
 }
 
+.input-group-text {
+  background-color:#ddd9df;
+}

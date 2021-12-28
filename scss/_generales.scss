@@ -10,7 +10,7 @@ main {
     margin: 1% 1%;
     text-align: justify;
   }
-  .titulo {
+  h1 {
     font-family: "Lovelo", sans-serif;
     color: #2e2e2e;
     font-size: 20px;
@@ -20,6 +20,13 @@ main {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+  }
+  p {
+    font-family: "Gilroy", sans-serif;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: justify;
   }
   
   .nosotros-subsecc {

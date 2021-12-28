@@ -12,7 +12,7 @@ main {
   text-align: justify;
 }
 
-.titulo {
+h1 {
   font-family: "Lovelo", sans-serif;
   color: #2e2e2e;
   font-size: 20px;
@@ -25,11 +25,27 @@ main {
   text-align: center;
 }
 
+p {
+  font-family: "Gilroy", sans-serif;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
+}
+
 .nosotros-subsecc {
   color: #7c6a86;
 }
 
 /*barra de navegación*/
+.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
 .nav {
   font-family: "Lovelo", sans-serif;
   text-align: center;
@@ -148,20 +164,16 @@ main {
 }
 
 /*store*/
-h5 {
+h3 {
   font-family: "Lovelo", sans-serif;
   font-weight: bold;
   font-size: 19px;
 }
 
-p {
-  font-family: "Gilroy", sans-serif;
-  font-size: 15px;
-}
-
 .btn {
   font-family: "Lovelo", sans-serif;
   font-size: 17px;
+  background-color: #ddd9df;
 }
 
 .card-img-top {
@@ -170,17 +182,6 @@ p {
 }
 
 /*formulario contacto*/
-#limpiar {
-  background-color: #ddd9df;
-  border-radius: 8px;
-}
-
-#enviar {
-  background-color: #ddd9df;
-  font-weight: bold;
-  border-radius: 8px;
-}
-
 .contenedor-flex {
   display: flex;
   flex-wrap: nowrap;
@@ -200,7 +201,11 @@ p {
   width: 100%;
   padding: 2%;
   border-radius: 6px;
-  margin: 0 auto;
+  margin: 10 auto;
+}
+
+.input-group-text {
+  background-color: #ddd9df;
 }
 
 /*transform, solo para entrega, luego borrar*/

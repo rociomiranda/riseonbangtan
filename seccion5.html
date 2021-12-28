@@ -22,7 +22,7 @@
   <body>
     <header>
       <img src="images/haderrob.png" class="mx-auto d-block" alt="logo-horizontal-largo" />
-      <nav class="nav justify-content-center">
+      <nav class="nav justify-content-center" id="nav">
         <ul class="menu">
         <li><a href="index.html">Inicio</a></li>
         <li>Nosotros
@@ -48,56 +48,73 @@
     </header>
     <main>
     <section>
-      <div class="titulo">Contactanos</div>
+      <h1>Contactanos</h1>
       <!--este título puede ir en una imagen que se fusione con el fondo-->
       <p>
-        ¿Sos BABY-ARMY y tanta información te voló la cabeza? ¿Tenés alguna duda
-        sobre los productos del store? ¿No entendés cómo manejarte en Weverse?
-        Por cualquier duda que tengas, ¡escribinos!
-      </p>
+        ¿Sos BABY-ARMY y tanta información te voló la cabeza?
+        ¿Tenés alguna duda sobre los productos del store?</br>
+        ¿No entendés cómo manejarte en Weverse?
+        Por cualquier duda que tengas, ¡escribinos!</p>
+      
       <div class="contenedor-flex">
       <!--formulario contacto-->
-      <div class="form-flex form1-flex"><form action="formulario">
-        <fieldset>
-          <label for="nombre">Nombre:</label>
-          <input type="text" name="nombre" id="nombre" />
-          <br />
-          <label for="email">E-mail:</label>
-          <input type="text" name="email" id="email" />
-          <br />
-          <label for="edad">Edad:</label>
-          <input type="number" name="edad" id="edad" />
-          <br /><label for="bias">¿Quién es tu bias?:</label>
-          <select name="bias" id="bias">
-            <option value="7">OT7</option>
-            <option value="RM">Namjoon</option>
-            <option value="J">Seokjin</option>
-            <option value="SG">Yoongi</option>
-            <option value="JH">Hoseok</option>
-            <option value="JM">Jimin</option>
-            <option value="V">Taehyung</option>
-            <option value="JK">Jungkook</option>
-          </select>
-          <br />
-          <label for="suscripcion"
-            >Suscribite a nuestra newsletter semanal:</label
-          >
-          <input type="checkbox" name="aceptar" value="1"/>
-          <br /><label for="mensaje">Dejanos tu mensaje:</label>
-          <br />
-          <textarea
-            name="mensaje"
-            id="mensaje"
-            cols="40"
-            rows="10"
-            placeholder="Escribinos tu consulta y nos contactaremos con vos en breve."
-          ></textarea>
-          <br />
-          <input type="reset" value="LIMPIAR" id="limpiar"/>
-          <input type="submit" value="ENVIAR" id="enviar"/>
-        </fieldset>
-      </form></div>
-      <div class="form-flex saludo-flex"><img src="images/taejoon1.png" id="saludo"/>
+      <div class="form-flex form1-flex"> 
+        <form class="row g-3" form action="https://formsubmit.co/mmrroouu@gmail.com" method="POST">
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">Nombre</label>
+            <input type="text" name="nombre" class="form-control" id="validationDefault01" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault02" class="form-label">Apellido</label>
+            <input type="text" name="apellido" class="form-control" id="validationDefault02" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefaultUsername" class="form-label">Instagram</label>
+            <div class="input-group">
+              <span class="input-group-text" id="inputGroupPrepend2">@</span>
+              <input type="text" name="instagram" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault05" class="form-label">Edad</label>
+            <input type="text" name="edad" class="form-control" id="validationDefault05" required>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault03" class="form-label">Correo Electrónico</label>
+            <input type="text" name="correo" class="form-control" id="validationDefault03" required>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault04" class="form-label">Bias</label>
+            <select class="form-select form-select-disabled-bg" name="bias" id="validationDefault04" required>
+              <option selected disabled value="">Elegí...</option>
+              <option>Namjoon</option>
+              <option>Seokjin</option>
+              <option>Yoongi</option>
+              <option>Hoseok</option>
+              <option>Jimin</option>
+              <option>Taehyung</option>
+              <option>Jungkook</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="suscripcion" id="invalidCheck2" >
+              <label class="form-check-label" for="invalidCheck2">
+                Suscribite a nuestra newsletter semanal.
+              </label>
+            </div>
+          </div>
+          <div class="mb-12">
+            <label for="exampleFormControlTextarea1" class="form-label">Dejanos tu mensaje:</label>
+            <textarea class="form-control" name="mensaje" id="exampleFormControlTextarea1" rows="3"></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn" type="reset">Limpiar</button>
+            <button class="btn" type="submit">Enviar</button> 
+          </div>
+        </form>
+        </div>
+      <div class="form-flex saludo-flex"><img src="images/contacto.png" width="500px"/>
     </div>
     </div>
   </section>
@@ -115,6 +132,7 @@
       <a href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX?si=rKZ2T4lDT9un5qHE7ZPuZQ"><img src="images/spotify.png" alt="Spotify" title="Spotify" /></a>
     </section>
   </footer>
+  <script src="js/nav.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
