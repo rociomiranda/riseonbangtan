@@ -28,6 +28,13 @@ h2 {
   text-align: center;
 }
 
+h3 {
+  font-size: 15px;
+  color: #2e2e2e;
+  text-transform: uppercase;
+  text-align: center;
+}
+
 p {
   font-family: "Gilroy", sans-serif;
   font-size: 15px;
@@ -168,7 +175,7 @@ p {
 }
 
 /*store*/
-h3 {
+.card-title {
   font-family: "Lovelo", sans-serif;
   font-weight: bold;
   font-size: 19px;
@@ -503,6 +510,32 @@ span {
   text-align: justify;
   padding-left: 30px;
   padding-right: 30px;
+}
+
+/*Entrevistas*/
+.page-link {
+  color: #7c6a86;
+  background-color: #ddd9df;
+}
+
+.pagination {
+  justify-content: right;
+}
+
+.entrevistas {
+  margin: 30px;
+  text-align: justify;
+  font-size: 14px;
+  border: 2px solid #ddd9df;
+  border-radius: 6px;
+}
+
+.dialogo {
+  white-space: pre-line;
+}
+
+#foto-entrevistas {
+  margin-right: 15px;
 }
 
 /*footer*/
