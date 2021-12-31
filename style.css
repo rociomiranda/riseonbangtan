@@ -5,6 +5,14 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Lovelo";
+  src: url(fonts/Lovelo-Black.otf) format(“sans-serif”);
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(fonts/Gilroy-Light.otf) format(“sans-serif”);
+}
 /*cuerpo*/
 main {
   font-family: "Gilroy", sans-serif;
@@ -43,14 +51,6 @@ p {
   text-align: justify;
 }
 
-@font-face {
-  font-family: "Lovelo";
-  src: url(fonts/Lovelo-Black.otf) format(“sans-serif”);
-}
-@font-face {
-  font-family: "Gilroy";
-  src: url(fonts/Gilroy-Light.otf) format(“sans-serif”);
-}
 /*barra de navegación*/
 .fixed {
   position: fixed;
