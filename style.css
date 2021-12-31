@@ -219,9 +219,10 @@ p {
   background-color: #ddd9df;
 }
 
-/*transform, solo para entrega, luego borrar*/
-.tetej {
-  transform: scale(0.5) translate(-20%, -10%) rotate(0.5turn);
+/*staff*/
+.staff {
+  text-indent: 2em;
+  font-size: 15px;
 }
 
 /*miembros*/
