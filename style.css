@@ -5,14 +5,6 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Lovelo";
-  src: url("https://fonts.cdnfonts.com/s/18519/Lovelo-Black.woff") format("woff");
-}
-@font-face {
-  font-family: "Gilroy";
-  src: url("http://db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.ttf") format("truetype");
-}
 /*cuerpo*/
 main {
   font-family: "Gilroy", sans-serif;
