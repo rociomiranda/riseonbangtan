@@ -37,7 +37,7 @@ main {
     margin-right: 10px;
     text-align: justify;
   }
-  
+
   @mixin sizes($width, $height) {
     height: $height;
     width: $width;

@@ -44,6 +44,11 @@ p {
 }
 
 /*barra de navegación*/
+#header {
+  display: flex;
+  justify-content: center;
+}
+
 .fixed {
   position: fixed;
   width: 100%;
@@ -546,8 +551,6 @@ span {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-align: center;
-  width: 100%;
 }
 
 /*error*/

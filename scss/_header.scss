@@ -1,4 +1,9 @@
 /*barra de navegación*/
+#header {
+  display: flex;
+  justify-content: center;
+}
+
 .fixed {
   position: fixed;
   width: 100%;

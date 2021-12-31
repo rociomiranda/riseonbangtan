@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rise on Bangtan Argentina</title>
     <meta name="description" content="Rise on Bangtan es una fanbase argentina del grupo de música BTS, que brinda información actualizada al instante.">
     <meta name="keywords"  content="BTS, BANGTAN, MUSICA, KPOP, BTS ARGENTINA, RM, JIN, SUGA, JHOPE, JIMIN, V, JUNGKOOK">
@@ -18,7 +18,7 @@
   </head>
   <body>
     <header>
-      <img src="images/haderrob.png" class="mx-auto d-block" alt="header" />
+      <img src="images/haderrob.png" class="img-fluid mx-auto d-block" alt="header" id="header"/>
       <div class="container-fluid"><nav class="nav justify-content-center" id="nav">
         <ul class="menu">
           <li><a href="index.html">Inicio</a></li>
@@ -43,12 +43,13 @@
           <li><a href="seccion4.html">Store</a></li>
           <li><a href="seccion5.html">Contacto</a></li>
         </ul>
-      </nav>
-    </div></header>
+      </nav></div>
+    </header>
     <main>
       <section>
       <!-- Últimas noticias -->
 <!-- Carousel -->
+<div class="container-fluid">
 <div id="demo" class="carousel slide" data-bs-ride="carousel">
   <!-- Indicators/dots -->
   <div class="carousel-indicators">
@@ -87,9 +88,8 @@
   <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </button>
-</div>
+</div></div>
       </section>
-      <div class="container-fluid">
       <div class="container">
         <div class="row row-cols-2">
           <div class="col">
@@ -122,30 +122,29 @@
             </div>
         </div>
       </div>
-</div>
     </main>
     <footer class="footer">
-      <section class="footer-flex logo">
-        <img src="images/logorob.png" alt="logo-circular" />
-      </section>
-      <section class="footer-flex redes">
-        <a href="https://www.instagram.com/riseonbangtan.argentina/"
-          ><img src="images/instagram.png" alt="Instagram" title="Instagram"
-        /></a>
-        <a href="https://twitter.com/RiseOnBangtanAr"
-          ><img src="images/twitter.png" alt="Twitter" title="Twitter"
-        /></a>
-        <a href="https://www.facebook.com/RiseOnBangtanArgentina"
-          ><img src="images/facebook.png" alt="Facebook" title="Facebook"
-        /></a>
-        <a href="https://www.youtube.com/c/BANGTANTV"
-          ><img src="images/youtube.png" alt="YouTube" title="YouTube"
-        /></a>
-        <a
-          href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX?si=rKZ2T4lDT9un5qHE7ZPuZQ"
-          ><img src="images/spotify.png" alt="Spotify" title="Spotify"
-        /></a>
-      </section>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="logo col-1"><img src="images/logorob.png" alt="logo-circular" /></div>
+          <div class="redes col-11"><a href="https://www.instagram.com/riseonbangtan.argentina/"
+            ><img src="images/instagram.png" alt="Instagram" title="Instagram"
+          /></a>
+          <a href="https://twitter.com/RiseOnBangtanAr"
+            ><img src="images/twitter.png" alt="Twitter" title="Twitter"
+          /></a>
+          <a href="https://www.facebook.com/RiseOnBangtanArgentina"
+            ><img src="images/facebook.png" alt="Facebook" title="Facebook"
+          /></a>
+          <a href="https://www.youtube.com/c/BANGTANTV"
+            ><img src="images/youtube.png" alt="YouTube" title="YouTube"
+          /></a>
+          <a
+            href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX?si=rKZ2T4lDT9un5qHE7ZPuZQ"
+            ><img src="images/spotify.png" alt="Spotify" title="Spotify"
+          /></a></div>
+        </div>
+      </div>
     </footer>
     <script src="js/nav.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -153,3 +152,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
       </body>
 </html>
+
+
