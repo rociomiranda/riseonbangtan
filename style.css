@@ -43,6 +43,10 @@ p {
   text-align: justify;
 }
 
+@font-face {
+  font-family: ”Lovelo”;
+  src: url(fontsLovelo-Black.otf) format(“sans-serif”);
+}
 /*barra de navegación*/
 .fixed {
   position: fixed;
