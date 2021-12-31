@@ -44,8 +44,12 @@ p {
 }
 
 @font-face {
-  font-family: ”Lovelo”;
+  font-family: "Lovelo";
   src: url(fontsLovelo-Black.otf) format(“sans-serif”);
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url(fontsGilroy-Light.otf) format(“sans-serif”);
 }
 /*barra de navegación*/
 .fixed {

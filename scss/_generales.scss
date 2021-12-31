@@ -45,7 +45,11 @@ main {
 
 
   @font-face {
-    font-family: ”Lovelo”;
+    font-family: "Lovelo";
     src: url(fonts\Lovelo-Black.otf) format(“sans-serif”);
     }
     
+    @font-face {
+      font-family: "Gilroy";
+      src: url(fonts\Gilroy-Light.otf) format(“sans-serif”);
+      }
