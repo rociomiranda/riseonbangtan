@@ -43,10 +43,6 @@ p {
   text-align: justify;
 }
 
-.nosotros-subsecc {
-  color: #7c6a86;
-}
-
 /*barra de navegación*/
 .fixed {
   position: fixed;
@@ -123,39 +119,27 @@ p {
   font-weight: bold;
 }
 
-/*eventos+playlist*/
-.diary-flex {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: center;
-  flex: 1;
+/*inicio*/
+#festa {
+  margin-top: 50px;
 }
 
-.mitad-flex {
-  border: 1px solid #ffffff;
-  width: 49%;
-  padding: 1px;
+#historia {
+  padding-top: 30px;
+  margin-top: 50px;
 }
 
-.playlist {
-  padding-right: 120px;
+#link {
+  color: #5f4f68;
+  font-size: 12px;
 }
 
-/*nuestra historia*/
-.staff-flex {
-  border: 1px;
-  width: 49%;
-  padding: 1px;
+#eventos {
+  margin-top: 50px;
 }
 
-.foto {
-  text-align: center;
-}
-
-.historia {
-  padding-left: 30px;
+#playlist {
+  margin-top: 50px;
 }
 
 /*calendario*/
@@ -223,6 +207,10 @@ p {
 .staff {
   text-indent: 2em;
   font-size: 15px;
+}
+
+.col {
+  margin-top: 10px;
 }
 
 /*miembros*/
