@@ -1,0 +1,2 @@
+AllowOverride AuthConfig Indexes
+ErrorDocument 404 /404.html

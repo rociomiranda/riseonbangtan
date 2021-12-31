@@ -1,0 +1,23 @@
+/*error*/
+
+.body-error {
+    background-image: url("images/fondoerror.png");
+    ;
+}
+.error-details {
+    font-family: "Gilroy", sans-serif;
+    font-size: 15px;
+    color: #2e2e2e;
+    white-space: pre-line;
+    font-weight: bold;
+}
+.error-template {
+    padding: 50px;
+    text-align: center;
+}
+.error-actions {
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+
